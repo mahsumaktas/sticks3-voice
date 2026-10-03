@@ -29,11 +29,13 @@ The waveform uses measured PCM peak levels, clamped to 24,000 and square-root sc
 With the pinned development dependencies installed:
 
 ```sh
-python3 tools/build_assets.py
-python3 tools/render_previews.py
+.venv/bin/python tools/build_assets.py
+.venv/bin/python tools/render_previews.py
 ```
 
 The second command compiles `tools/preview.cpp` together with the actual firmware renderer in both languages. It renders all seven states for both themes, converts temporary PPM framebuffers to PNGs, and builds contact sheets plus `assets/previews/hero.png`. The hero is two real ready-state framebuffers enlarged by nearest-neighbor scaling, not a hardware photograph or a fictional mockup. PNGs contain no EXIF, user paths, serial numbers, or embedded personal metadata. Temporary executables and PPMs stay outside the repository.
+
+Font rasterization explicitly selects Pillow's BASIC layout engine. Optional RAQM availability must not change kerning or the generated masks between operating systems.
 
 The asset generator also checks label dimensions against their layout regions and checks seven text/background pairs in each actual source palette against a 4.5:1 contrast threshold. Measurements are recorded in `assets/previews/label-metrics.json`. These are source-color checks, not a claim of whole-device accessibility certification; antialiasing, RGB565 quantization, panel brightness, and physical viewing conditions affect the result.
 

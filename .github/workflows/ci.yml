@@ -41,7 +41,7 @@ jobs:
         run: |
           python tools/build_assets.py
           python tools/render_previews.py
-          git diff --exit-code -- firmware/main/assets assets/previews
+          git diff --exit-code --stat -- firmware/main/assets assets/previews
 
   security:
     name: Dependency and secret checks

@@ -37,7 +37,9 @@ LABELS = [
 
 
 def font(size, weight):
-    result = ImageFont.truetype(str(ROOT / "assets/fonts/Nunito.ttf"), size)
+    # Do not let optional RAQM availability change kerning between OS wheels.
+    result = ImageFont.truetype(str(ROOT / "assets/fonts/Nunito.ttf"), size,
+                                layout_engine=ImageFont.Layout.BASIC)
     result.set_variation_by_axes([weight])
     return result
 
