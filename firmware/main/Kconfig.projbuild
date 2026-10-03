@@ -1,0 +1,25 @@
+menu "StickS3 Voice"
+    config STICKS3_CLAUDE_KEY
+        int "Claude hold key (USB HID usage, decimal)"
+        range 4 115
+        default 44
+        help
+            Default 44 is Space. The focused terminal must use a matching binding.
+            Modifier combinations are not supported by this setting.
+
+    config STICKS3_CODEX_KEY
+        int "Codex voice toggle key (USB HID usage, decimal)"
+        range 4 115
+        default 65
+        help
+            Default 65 is F8. This is version-dependent; verify your CLI binding.
+
+    config STICKS3_MAX_HOLD_SECONDS
+        int "Maximum microphone hold (seconds)"
+        range 10 90
+        default 90
+
+    config STICKS3_UI_TURKISH
+        bool "Use Turkish display labels"
+        default n
+endmenu

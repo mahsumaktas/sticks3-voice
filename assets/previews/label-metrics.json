@@ -1,0 +1,558 @@
+{
+  "labels": [
+    {
+      "locale": "tr",
+      "id": "Claude",
+      "text": "Claude",
+      "width": 71,
+      "height": 16,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "tr",
+      "id": "Codex",
+      "text": "Codex",
+      "width": 63,
+      "height": 16,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "tr",
+      "id": "Hello",
+      "text": "Merhaba.",
+      "width": 94,
+      "height": 16,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Talk",
+      "text": "Konuş...",
+      "width": 80,
+      "height": 20,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Connect",
+      "text": "Bağlanalım.",
+      "width": 102,
+      "height": 17,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Wait",
+      "text": "Ses modunu aç",
+      "width": 115,
+      "height": 15,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Done",
+      "text": "Tamam.",
+      "width": 80,
+      "height": 16,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Timeout",
+      "text": "Bir nefes.",
+      "width": 82,
+      "height": 14,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "Error",
+      "text": "Ses kesildi.",
+      "width": 90,
+      "height": 13,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "tr",
+      "id": "HoldHint",
+      "text": "Basılı tut, konuş.",
+      "width": 91,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "ConnectHint",
+      "text": "USB ile bağlan.",
+      "width": 86,
+      "height": 12,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "WaitHint",
+      "text": "Uygulamayı başlat.",
+      "width": 106,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "OpenHint",
+      "text": "Mikrofon açık",
+      "width": 75,
+      "height": 12,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "ClosedHint",
+      "text": "Mikrofon sessiz",
+      "width": 85,
+      "height": 9,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "TimeoutHint",
+      "text": "Tuşu bırakıp dene.",
+      "width": 101,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "ErrorHint",
+      "text": "USB'yi yeniden tak.",
+      "width": 107,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "tr",
+      "id": "Draft",
+      "text": "YAZIYA DÖK",
+      "width": 63,
+      "height": 10,
+      "max_width": 111,
+      "max_height": 12
+    },
+    {
+      "locale": "tr",
+      "id": "Voice",
+      "text": "SESLİ SOHBET",
+      "width": 71,
+      "height": 10,
+      "max_width": 111,
+      "max_height": 12
+    },
+    {
+      "locale": "tr",
+      "id": "Usb",
+      "text": "USB",
+      "width": 21,
+      "height": 7,
+      "max_width": 30,
+      "max_height": 13
+    },
+    {
+      "locale": "tr",
+      "id": "NoUsb",
+      "text": "USB YOK",
+      "width": 45,
+      "height": 7,
+      "max_width": 55,
+      "max_height": 13
+    },
+    {
+      "locale": "tr",
+      "id": "Hold",
+      "text": "Basılı tut",
+      "width": 46,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "tr",
+      "id": "Release",
+      "text": "Bırak: bitir",
+      "width": 54,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "tr",
+      "id": "Retry",
+      "text": "Tuşu bırak",
+      "width": 54,
+      "height": 11,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "tr",
+      "id": "NextClaude",
+      "text": "Claude",
+      "width": 36,
+      "height": 8,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "tr",
+      "id": "NextCodex",
+      "text": "Codex",
+      "width": 32,
+      "height": 8,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "tr",
+      "id": "Reconnect",
+      "text": "Yeniden bağla",
+      "width": 72,
+      "height": 11,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "Claude",
+      "text": "Claude",
+      "width": 71,
+      "height": 16,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "en",
+      "id": "Codex",
+      "text": "Codex",
+      "width": 63,
+      "height": 16,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "en",
+      "id": "Hello",
+      "text": "Hello there.",
+      "width": 120,
+      "height": 16,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Talk",
+      "text": "Listening...",
+      "width": 110,
+      "height": 20,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Connect",
+      "text": "Let's connect.",
+      "width": 118,
+      "height": 13,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Wait",
+      "text": "Open voice",
+      "width": 84,
+      "height": 15,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Done",
+      "text": "All done.",
+      "width": 92,
+      "height": 16,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Timeout",
+      "text": "Take a breath.",
+      "width": 123,
+      "height": 13,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "Error",
+      "text": "Audio stopped.",
+      "width": 123,
+      "height": 16,
+      "max_width": 127,
+      "max_height": 24
+    },
+    {
+      "locale": "en",
+      "id": "HoldHint",
+      "text": "Hold to speak.",
+      "width": 81,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "ConnectHint",
+      "text": "Connect USB to host.",
+      "width": 118,
+      "height": 9,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "WaitHint",
+      "text": "Start the host app.",
+      "width": 103,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "OpenHint",
+      "text": "Mic streaming",
+      "width": 78,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "ClosedHint",
+      "text": "Mic muted",
+      "width": 58,
+      "height": 9,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "TimeoutHint",
+      "text": "Release and retry.",
+      "width": 100,
+      "height": 11,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "ErrorHint",
+      "text": "Reconnect USB.",
+      "width": 88,
+      "height": 9,
+      "max_width": 126,
+      "max_height": 17
+    },
+    {
+      "locale": "en",
+      "id": "Draft",
+      "text": "DICTATION",
+      "width": 56,
+      "height": 7,
+      "max_width": 111,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "Voice",
+      "text": "VOICE CHAT",
+      "width": 62,
+      "height": 7,
+      "max_width": 111,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "Usb",
+      "text": "USB",
+      "width": 21,
+      "height": 7,
+      "max_width": 30,
+      "max_height": 13
+    },
+    {
+      "locale": "en",
+      "id": "NoUsb",
+      "text": "NO USB",
+      "width": 39,
+      "height": 7,
+      "max_width": 55,
+      "max_height": 13
+    },
+    {
+      "locale": "en",
+      "id": "Hold",
+      "text": "Hold to talk",
+      "width": 61,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "Release",
+      "text": "Release: end",
+      "width": 64,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "Retry",
+      "text": "Release button",
+      "width": 77,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    },
+    {
+      "locale": "en",
+      "id": "NextClaude",
+      "text": "Claude",
+      "width": 36,
+      "height": 8,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "en",
+      "id": "NextCodex",
+      "text": "Codex",
+      "width": 32,
+      "height": 8,
+      "max_width": 130,
+      "max_height": 23
+    },
+    {
+      "locale": "en",
+      "id": "Reconnect",
+      "text": "Reconnect",
+      "width": 52,
+      "height": 8,
+      "max_width": 116,
+      "max_height": 12
+    }
+  ],
+  "contrast": [
+    {
+      "theme": "Warm",
+      "foreground": "ink",
+      "background": "bg",
+      "ratio": 12.428
+    },
+    {
+      "theme": "Warm",
+      "foreground": "muted",
+      "background": "bg",
+      "ratio": 5.215
+    },
+    {
+      "theme": "Warm",
+      "foreground": "ink",
+      "background": "surface",
+      "ratio": 10.855
+    },
+    {
+      "theme": "Warm",
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 4.555
+    },
+    {
+      "theme": "Warm",
+      "foreground": "accent",
+      "background": "surface",
+      "ratio": 5.114
+    },
+    {
+      "theme": "Warm",
+      "foreground": "accent",
+      "background": "pill",
+      "ratio": 4.956
+    },
+    {
+      "theme": "Warm",
+      "foreground": "green",
+      "background": "surface",
+      "ratio": 5.222
+    },
+    {
+      "theme": "Cool",
+      "foreground": "ink",
+      "background": "bg",
+      "ratio": 14.482
+    },
+    {
+      "theme": "Cool",
+      "foreground": "muted",
+      "background": "bg",
+      "ratio": 8.266
+    },
+    {
+      "theme": "Cool",
+      "foreground": "ink",
+      "background": "surface",
+      "ratio": 12.192
+    },
+    {
+      "theme": "Cool",
+      "foreground": "muted",
+      "background": "surface",
+      "ratio": 6.959
+    },
+    {
+      "theme": "Cool",
+      "foreground": "accent",
+      "background": "surface",
+      "ratio": 10.025
+    },
+    {
+      "theme": "Cool",
+      "foreground": "accent",
+      "background": "pill",
+      "ratio": 7.821
+    },
+    {
+      "theme": "Cool",
+      "foreground": "green",
+      "background": "surface",
+      "ratio": 9.629
+    }
+  ]
+}

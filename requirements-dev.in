@@ -1,0 +1,2 @@
+-r requirements.in
+Pillow==12.3.0

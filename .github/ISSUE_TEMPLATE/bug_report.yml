@@ -1,0 +1,38 @@
+name: Bug report
+description: Report reproducible firmware, tooling, or host-integration behavior.
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload backups, private audio, credentials, device identifiers, or unredacted logs. Report vulnerabilities through SECURITY.md."
+  - type: input
+    id: revision
+    attributes:
+      label: Source revision or release
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Board, OS, application and version, ESP-IDF version. Omit identifiers and personal paths.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include input selection, foreground application, and button sequence.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+      description: Distinguish device display state from host application state.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks and sanitized output
+      description: Build results or hardware observations. Do not attach a flash dump.
