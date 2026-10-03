@@ -98,6 +98,6 @@ jobs:
           esp_idf_version: v5.4
           target: esp32s3
           path: firmware
-          command: idf.py -D 'SDKCONFIG_DEFAULTS=sdkconfig.defaults;sdkconfig.language' build
+          command: idf.py -D "SDKCONFIG_DEFAULTS=sdkconfig.defaults;sdkconfig.language" build
       - name: Verify dependency lock stayed fixed
         run: git diff --exit-code -- firmware/dependencies.lock
