@@ -40,7 +40,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           python tools/build_assets.py
-          python tools/render_previews.py
+          python tools/render_previews.py --check
           git diff --exit-code --stat -- firmware/main/assets assets/previews
 
   security:

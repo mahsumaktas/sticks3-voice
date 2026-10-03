@@ -37,6 +37,8 @@ The second command compiles `tools/preview.cpp` together with the actual firmwar
 
 Font rasterization explicitly selects Pillow's BASIC layout engine. Optional RAQM availability must not change kerning or the generated masks between operating systems.
 
+Use `tools/render_previews.py --check` to compare regenerated pixels without rewriting the committed PNGs. PNG compression libraries may encode identical pixels differently across operating systems; verification compares dimensions and every decoded RGB pixel.
+
 The asset generator also checks label dimensions against their layout regions and checks seven text/background pairs in each actual source palette against a 4.5:1 contrast threshold. Measurements are recorded in `assets/previews/label-metrics.json`. These are source-color checks, not a claim of whole-device accessibility certification; antialiasing, RGB565 quantization, panel brightness, and physical viewing conditions affect the result.
 
 `tests/test_ui.cpp` exercises all states and both themes under host sanitizers. It checks sentinel bounds, zero-input stability, different measured levels, reset on leaving capture, peak saturation, timer saturation, and USB status changes. These checks validate renderer behavior; hardware and host audio compatibility need separate testing.
