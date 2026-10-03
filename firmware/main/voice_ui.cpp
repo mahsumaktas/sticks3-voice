@@ -160,7 +160,7 @@ void Renderer::render(const View& view) {
             box(102+i*5.5f,97-h*.5f,3,h,1.5f,p.accent);
         }
         const unsigned seconds=std::min<uint32_t>(view.elapsed_ms/1000,90);
-        char timer[6];std::snprintf(timer,sizeof(timer),"%u:%02u",seconds/60,seconds%60);
+        char timer[16];std::snprintf(timer,sizeof(timer),"%u:%02u",seconds/60,seconds%60);
         for(int i=0;timer[i];++i) {
             const int n=timer[i]==':'?10:timer[i]-'0';
             mask(201+i*7,91,7,12,assets::digits+n*7*12,p.muted);
