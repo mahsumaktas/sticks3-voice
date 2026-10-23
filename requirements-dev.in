@@ -1,2 +1,2 @@
 -r requirements.in
-Pillow==12.3.0
+Pillow==13.0.0
